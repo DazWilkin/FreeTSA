@@ -1,0 +1,4 @@
+github.com/digitorus/pkcs7 v0.0.0-20180112093143-228ee0211bba h1:Ouns2rXLXNEzOBKC8jocFrHsYTGYnHj5zW1mm+QpgHo=
+github.com/digitorus/pkcs7 v0.0.0-20180112093143-228ee0211bba/go.mod h1:p2IZ9yq2kEKGFr3rfpYxaaOzB0VdLbF8VkZReEIpJmU=
+github.com/digitorus/timestamp v0.0.0-20180925120404-d9edc1ea1dbc h1:6hctaGb4g0F774NhigOWgGmzHWbkc+vQCnRa4h74G1Y=
+github.com/digitorus/timestamp v0.0.0-20180925120404-d9edc1ea1dbc/go.mod h1:Nrb/3jYV11CzJupvmh9oMHCb2BJNY/jpam4w4r21YbI=
