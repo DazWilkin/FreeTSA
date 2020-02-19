@@ -1,6 +1,6 @@
 # Golang "SDK" for FreeTSA using Digitorus' RFC 3161 timestamp SDK
 
-**NB** There is no license published with github.com/digitorus/timestamp; I'm assuming it's permissible to use (checking)
+**NB** There is no license published with https://github.com/digitorus/timestamp; I'm assuming it's permissible to use (checking)
 
 Adventures in [trusted timestamping](https://en.wikipedia.org/wiki/Trusted_timestamping) with [freeTSA.org](https://freetsa.org).
 
