@@ -40,11 +40,12 @@ func main() {
 		log.Fatal(err)
 	}
 	log.Printf("Timestamp Request: \n%+v", tsr)
+	log.Printf("Rqst HashedMessage: %x\n", tsr.HashedMessage)
 
 	h := crypto.SHA256.New()
 	h.Write([]byte(*mesg))
 	s := h.Sum(nil)
-	log.Printf("%x\n", s)
+	log.Printf("Calc HashedMessage: %x\n", s)
 
 	if !bytes.Equal(tsr.HashedMessage, s) {
 		log.Fatal(err)
@@ -70,6 +71,7 @@ func main() {
 	}
 
 	log.Printf("Timestamp Response: \n%+v", ts)
+	log.Printf("Resp HashedMessage: %x\n", tsr.HashedMessage)
 }
 func save(name string, data []byte) error {
 	return ioutil.WriteFile(fmt.Sprintf("/tmp/%s", name), data, 0644)
